@@ -6,12 +6,12 @@ import { Cabecalho } from "../header";
 export default function Pagina(props: any) {
   // console.log(props.children);
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col w-screen h-screen">
       <Cabecalho />
-      <div className="flex-1 flex bg-red-500 border-white outline-zinc-300">
+      <section className="flex-1 flex bg-zinc-500">
         <MenuLateral />
         <ConteudoMenu>{props.children}</ConteudoMenu>
-      </div>
+      </section>
       <Rodape />
     </main>
   );

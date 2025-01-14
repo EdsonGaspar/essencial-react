@@ -1,4 +1,4 @@
 "use client";
 export function ConteudoMenu(props: any) {
-  return <section>{props.children}</section>;
+  return <section className="flex-1">{props.children}</section>;
 }
