@@ -1,3 +1,4 @@
-export function ConteudoMenu() {
-  return <h1>Conteudo</h1>;
+"use client";
+export function ConteudoMenu(props: any) {
+  return <section>{props.children}</section>;
 }
