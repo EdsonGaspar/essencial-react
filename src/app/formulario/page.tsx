@@ -1,3 +1,10 @@
+import { Formulario } from "@/components/formulario";
+import Pagina from "@/components/template/pagina";
+
 export default function PageFurmulario() {
-  return <h1>Formulário</h1>;
+  return (
+    <Pagina>
+      <Formulario />
+    </Pagina>
+  );
 }

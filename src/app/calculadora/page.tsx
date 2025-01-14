@@ -1,3 +1,10 @@
+import { Calculadora } from "@/components/calculadora";
+import Pagina from "@/components/template/pagina";
+
 export default function PageCalculadora() {
-  return <h1>Calculadora</h1>;
+  return (
+    <Pagina>
+      <Calculadora />
+    </Pagina>
+  );
 }
