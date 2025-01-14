@@ -7,7 +7,7 @@ export default function Pagina() {
   return (
     <main>
       <Cabecalho />
-      <div className="flex">
+      <div className="flex flex-1">
         <MenuLateral />
         <ConteudoMenu />
       </div>
