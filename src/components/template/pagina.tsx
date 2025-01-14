@@ -1,7 +1,17 @@
+import { MenuLateral } from "../aside";
+import { ConteudoMenu } from "../content";
+import { Rodape } from "../footer";
+import { Cabecalho } from "../header";
+
 export default function Pagina() {
   return (
-    <div>
-      <h1>Formulatio</h1>
-    </div>
+    <main>
+      <Cabecalho />
+      <div className="flex">
+        <MenuLateral />
+        <ConteudoMenu />
+      </div>
+      <Rodape />
+    </main>
   );
 }

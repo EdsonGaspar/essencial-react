@@ -1,3 +1,9 @@
+import Pagina from "@/components/template/pagina";
+
 export default function PageCalculadora() {
-  return <h1>Calculadora</h1>;
+  return (
+    <Pagina>
+      <h1>Calculadora</h1>;
+    </Pagina>
+  );
 }
