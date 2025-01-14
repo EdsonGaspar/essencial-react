@@ -1,5 +1,4 @@
 import { IconBrandBlackberry } from "@tabler/icons-react";
-import { MenuItems } from "./menu-items";
 
 export function Cabecalho() {
   return (
@@ -13,7 +12,7 @@ export function Cabecalho() {
             />
           }
         </h2>
-        <h2 className="text-2xl font-bold bg-zinc-600 p-2 rounded-full cursor-pointer hover:bg-zinc-700 hover:text-zinc-200 transition-colors duration-300">
+        <h2 className="text-2xl font-bold bg-zinc-600 p-2 rounded-full cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 transition-colors duration-300">
           EG
         </h2>
       </header>
