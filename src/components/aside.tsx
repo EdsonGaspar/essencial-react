@@ -2,6 +2,8 @@ import {
   IconBrandSlack,
   IconCalculatorFilled,
   IconHomeFilled,
+  IconLayoutSidebarRightFilled,
+  IconSearchOff,
 } from "@tabler/icons-react";
 import { MenuItems } from "./menu-items";
 
@@ -18,6 +20,16 @@ export function MenuLateral() {
         caminho="/formulario"
         nomeItem="Formulário"
         icone={<IconBrandSlack />}
+      />
+      <MenuItems
+        caminho="/layout"
+        nomeItem="Layout"
+        icone={<IconLayoutSidebarRightFilled />}
+      />
+      <MenuItems
+        caminho="/notfound"
+        nomeItem="Não Existe"
+        icone={<IconSearchOff />}
       />
     </aside>
   );
